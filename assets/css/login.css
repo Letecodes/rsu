@@ -1,0 +1,122 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.wrapper .left {
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url(../images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper .right {
+    width: 50%;
+    height: 100%;
+    background-color: #F0F0F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .right .container {
+    width: 330px;
+    /* height: 400px; */
+    /* background-color: blueviolet; */
+}
+
+.wrapper .right .container .logo-container .logo {
+    width: 100%;
+    /* animation: logo_animation 1s ease infinite; */
+}
+
+.wrapper .right .container form {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+}
+
+.wrapper .right .container form label {
+    margin-bottom: 5px;
+    display: block;
+    color: #3c434a;
+}
+
+.wrapper .right .container form .field {
+    border: 1px solid #ddd;
+    padding: 13px;
+    width: 91%;
+    margin-bottom: 20px;
+}
+
+.wrapper .right .container form .footer-container {
+    width: 100%;
+}
+
+.wrapper .right .container form .footer-container button {
+    background-color: #2271b1;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    float: right;
+    border-radius: 3px;
+}
+
+
+/* @keyframes logo_animation {
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-left: 50px;
+    }
+} */
+
+@keyframes logo_animation {
+    0% {
+        margin-left: 0px;
+    }
+    25% {
+        margin-left: 50px;
+    }
+    50% {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    75% {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    100% {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 577px) {
+    .wrapper .left {
+        display: none;
+    }
+    .wrapper .right {
+        width: 100%;
+        background-image: url(../images/background-image.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,55 @@
+.container {
+    width: 500px;
+    background: grey;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.container .box1 {
+    width: 49%;
+    height: 100px;
+    background: green;
+    margin-right: 2%;
+}
+
+.container .box2 {
+    width: 49%;
+    height: 100px;
+    background: red;
+}
+
+.container .box3 {
+    width: 100%;
+    height: 100px;
+    background: brown;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.container .box4 {
+    width: 23.5%;
+    height: 100px;
+    background: lightblue;
+    margin-right: 2%;
+}
+
+.container .box5 {
+    width: 23.5%;
+    height: 100px;
+    background: pink;
+    margin-right: 2%;
+}
+
+.container .box6 {
+    width: 23.5%;
+    height: 100px;
+    background: orange;
+    margin-right: 2%;
+}
+
+.container .box7 {
+    width: 23.5%;
+    height: 100px;
+    background: blue;
+}

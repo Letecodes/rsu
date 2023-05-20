@@ -1,0 +1,22 @@
+.welcome {
+    color: blue;
+    background-color: red;
+    font-size: 50px;
+    margin-left: 50px;
+    padding: 100px;
+}
+
+.scroll-up {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #20415E;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
